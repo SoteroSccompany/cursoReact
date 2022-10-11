@@ -1,0 +1,1 @@
+--Os hooks e a forma de utilizar o useState entre outras estrtegias para nao precisar utilizar classe

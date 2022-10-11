@@ -1,0 +1,25 @@
+--Os hooks e a forma de utilizar o useState entre outras estrtegias para nao precisar utilizar classe
+
+--dara inicio a utilizacao de componente funcional, o que e o principal, nunca realizar componente com classe
+
+--lembre do conceito dos componentes funcionais, apenas utilize o useState e seja feliz. 
+
+--lembre que dentro dele pode colocar um objeto json, o que e bem recomendado, sempre faca assim.
+
+--lembre que na questao do usestade, se coloca todos os que estao e depois seta
+
+--lembre, se declara o usestate, coloca a propriedade e o que se quer e sempre atualize com base no state 
+
+const [exemplo, setExemplo] = useState({}) -> exemplo
+
+--Ele sempre ira pegara o atual e jogar para o reacr dom, sendo igual no native!!
+
+--Sempre utilize componentes funcionais, sempre. 
+
+--Sempre lembre de colocar as props dentro do useState. Se nao tera uma bela surpresa
+
+--Sempre coloque as props dentro do useState
+
+--O button nao funcionaou, mas e mais ou menosa ideia. Sempre siga daquele jeito, para fazer o leitor por exemplo. 
+
+--

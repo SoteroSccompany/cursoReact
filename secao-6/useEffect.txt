@@ -1,0 +1,12 @@
+--as funcoes do useEfectsm, sao os hooks que substituem as funcoes que vem antes do componente existir ou depois que ele se vai
+--Vieram para substituir essas funcoes
+
+--Ele e chamdo pelo primeiro parametro uma funcao e um array com o que sera que tem que ser moninorado. 
+
+--Sempre coloque ele e a state que se esta observando, sempre que ela tiver alteracao o codigo ira entrar em acao. 
+
+--A logica e bem semelhante ao do react native, sempre seguindo a mesma logica e a mesma funcao 
+
+--Para utilizar o useEffect na hora de sair do componente apenas retorne uma funcao, ela ira ser realizada apos tudo acabar, dando o mesmo restultado
+
+--

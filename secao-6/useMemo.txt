@@ -1,0 +1,5 @@
+--Ele coloca partes do codigo para alterare e nao recompilar tudo o que se esta na tela 
+
+--isso e o watch do vue, p[orem como sempre, mais facil
+
+--

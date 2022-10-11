@@ -1,0 +1,4 @@
+--Obs: Em classes no react, deve se colocar o render para renderizar o component
+
+--Sempre lembre que dentro do componente funcional, utilizar o useState e dentro de classe o super, 
+para informara ao react dom que esta sendo utilizado o estado da applicacao

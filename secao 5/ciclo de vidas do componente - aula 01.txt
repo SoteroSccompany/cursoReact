@@ -1,0 +1,44 @@
+--Sempre lembre que o componente funcional, no caso do react-native, sempre e utilizado apenas o usestate, sendo colocado pela funcao, o que diferencia do de classes. 
+
+--Lembre do context, que se coloca entre as chaves e a informacao fica disponibilizada a todos os componentes, ja o reducer, cria as features que serao funcoes a serem
+cumporidas e realiza a execucao
+
+--Em classe no react js, se coloca a funcao render para renderzar o objeto
+
+--Sempre lembre do conceito de useState. 
+
+--Sempre lembre isso do ciclo de vida do componete. 
+
+componentDiMount(){
+    //Funcao que e realikzada apos o componente for renderizado
+}
+
+componentDiUpdate(){
+    //funcao que sempre que o componente for atualizado ele sera chamado 
+}
+
+shouldComponentUpdate(){
+    //Se o componente deve dat um update ou nao
+}
+
+//Funcoes do ciclo de vida do componente
+//////////////////////////////////////////////////////////////////////////////
+
+--Ciclo de vida dos componentes:
+    -Sao 5 etapas para o ciclp de vida do componente: Inicializacao, montagem, atualizacao, desmontagem. 
+    -Inicializacao: Fase que se configura os props e os states.
+    -Montagem: Coloca no Dom do naveggador
+    
+funcao 
+
+componentWillMount(){
+    //Funcao que sera chamada quando o componente estiver para ser montado 
+}
+
+componentWillUpdate(){
+    //Funcao de ser executada quando o componente vai atualizar mais ainda nao atualizou de fato
+}
+
+componentWillUnmouint(){
+    //Funcao quando o componente sera desmontado
+}

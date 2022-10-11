@@ -1,0 +1,7 @@
+--A renderizacao condicional segue sendo igual a do react-native, ele sempre sera pelas chaves que se coloca como codigo 
+
+--Sempre que se utilizar, sera dentro das chaes e colocando o texto de forma dinamica. 
+
+--E apenas o framework no conceito web, e a mesma coisa que o react-native, poirem no conceito web 
+
+--

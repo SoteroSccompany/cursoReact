@@ -1,0 +1,25 @@
+--Obs Geral: maconha tira mt a vontade de estudar, deixa muito sequelado, isso mata sonho 
+
+--Cuidado, a partir de quarta, fuma mais nao. 
+
+--Quando o array esta vazio dentro do useEffect, ele carrega ao carregar o site 
+
+--Utilize o fetch sempre que fot utilizar a forma nativa, caso nao de as bibiliotecxas. 
+
+--Sempre utilize o css em sua base, lembre que ele e diferente do native, muito, ele nao e a mesma coisa
+
+--O melhor que se pode realizar e o feijao com arroz, todas as duvidas, volta nessas aulas, pesquisa na net, coisa facil de resolver.
+
+--Sempre busque mais calma na hora de resolver problemas e calma, eu sei coisa para caralho, apenas ajustar a questao da maconha para voar
+
+--Sempre vai de acordo com o que aprendeu, sempre vai no basico, volta nos cursos, refaz e vai para frente. 
+
+--Sempre utilize react, vue e paia dms.
+
+--faca o css, por mais bobo que possa parecer. 
+
+--Sempre vai no basico e sempre pesquise, porem sempre utilize a estilizacao./ 
+
+--lembre que o useEffect e para monitoramento de alguma state, caso tenha o array vazio, ele e utilizado quando o componente e carregado
+
+

@@ -1,0 +1,5 @@
+--O callback e igual o useMemo, sempre utilize o callbak 
+
+--UseMemo n ta com nada, coloca sempre o useCallback, melhor./ 
+
+--Sempre lembvre que

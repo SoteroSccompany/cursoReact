@@ -1,0 +1,13 @@
+--Eventos
+
+Mesma logica do react native, apenas se aplica para a web. 
+
+--Lembre que as props sao passadas quando esta construindo o componente. caso queira colocar em state, apenas coloque o useState na aplicacao/
+
+
+--Lembre que se estive trabalhando com classe e for utili8zar o tthis, deve realizar o bind dele com o supoer, igual as props para conseguir
+
+--Sempre lembre das peculiaridades dos componentes de classe do react 
+
+--Jamais para de estudar e realizar curso, cada dia melhor! 
+

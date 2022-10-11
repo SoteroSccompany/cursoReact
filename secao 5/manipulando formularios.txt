@@ -1,0 +1,67 @@
+--PAra salvar os dados do formulario, se coloca apenas dentro da state e assim salva o state. 
+
+--Sempre utilize pensasndo nos stae, eles quie mandan na exibicao, com isso se faz todas as logicas depois 
+
+--O state e o data do vue, so que no react, muito mais facil de entender e tal
+
+--Nao se fica preso ao conceito de apenas fdaca e e issio, e a logica mais pura, sendo melhor
+
+--Utilize o onChange, o react e muitooooo melhor, apenas utilize ele. 
+
+--Quando se coloca na funcao ele vem mais puro, igual no js mesmo, ele tras como parametro, o onchange o valor dos inputs. 
+
+--Sempre que tiver um evento ele manda o evento 
+
+--Sempre ira enviar um eventgo e o target sera o valor que estara armazenado a informacao. 
+
+--lembre sempre de realizar em linha, sendo mais direto
+
+--Que frame foda, o vue e paia dms se for para compararr. 
+
+--O target e sempre a composicao do que se esta construindo dentro docomponente. 
+
+--Direto e visivel o que se esta fazendo
+
+--Sempre utilize os meios mais rapidos e que vao mais direeto ao ponto, sempre lembrando das premissas do react native 
+
+--A partir do momneto que coloca dentro da state se pode utilizar de qualquer jeito, assim pode ser o action ou o onclick, o que ficar melhor, da na mesma
+
+--Se colocar dentro de um formulario, ele ira atualizar ssozinho depois de enviar
+    --PAra isso, coloqu event.preventDefault()
+    --Com isso, deixa  os dados na pagina normalmente 
+
+--PAra os erros, coloque um span de baixo do input, ele ira colocar o tamplate
+
+--Sempre coloque em uma funcao geral que atualiza o form de uma vezz, e o meio mais pratico, sempre coloque em um objeto dentro do state
+
+--So react, a classe de css e className e nao class
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+lembre sempre desses conceitos basicos, eles qubram por completo ou fazemn a aplicacao ir muito bem.
+
+--vai nos conceitos que da bom, no react [e melhor e mais facil, muito mais]
+
+--O estilo, e apeans no native, aqui e normal
+
+Sempre mais manual, pense mais e coloca 
+
+--Sempre as props vem poara o objeto, sempre
+
+--lembre de pegar as fonction por props, se coloca a funcao dentro de uma props e ao objeto ser renderizado por concequencia ele ira pegar, quando colocar no mesmo arquivo fica mais visivel, mas e tranquilo, mesma logica 
+
+--lembre do setstate, se colocar ele dentro de uma varivael e colocar ela na chamada de setagem, enciurta o caminho 
+
+--Sempre lembre dos conceitos basicos, retorne a codigos antigos, isso ajuda muito as vezes por isso n sai do luga
+
+--A funcao clearInterval, ira pausar a automacao que esta sendo realizada
+
+--Sempre com pensamento logico e sempre no mais obvio, pelo pior que pareca. Sempre vai pela logica. 
+
+--Sempre pela logica e pelo que e mais direto.

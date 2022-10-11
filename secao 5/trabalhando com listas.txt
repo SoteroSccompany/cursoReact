@@ -1,0 +1,19 @@
+--Sempre trabalhe com state, nunca esqueca disso, sempre inicie com state 
+
+--PAra renderizar lista, utilize o metodo maop, ele ira pegar os dados atraves da funcao anonima que se recebe com uim item, asim se renderiza, sempre pela funcao. 
+
+--Sempre utilizando o return e a logica de coomo ira colocar
+
+--A logica do react sempre estara atrelado a funcoes do js e sempre sendo realizado diretamente com o codigo logico, nunca esqueca disso. 
+
+--Por isso ele e melhor do que o vue, mais de boa de fazer as coisas e melhor de estilizacao. 
+
+--Sempre lembre da forma como o react funcinoa, sempre realize de acordo com a logica do js e sempre fique perto do framework, nunca deixe de estudar e sempre foque na sua rotina. 
+
+--Sempre de preferencia para a utilizazcao do componente funcinoal, sempre. Utilize o useState e assim nao precisa colocar o super, sempre utilize. 
+
+--Vai por classe para acompanhar o curso, mas sempre de preferencia aos componentes funcionais.
+
+--Poderia ter sido feaito normalmente com o map no app, porem o componente nao pode ter o nome com a inicial minniscula se nao ela nao ira funcionar
+
+--

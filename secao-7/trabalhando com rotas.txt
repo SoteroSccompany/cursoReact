@@ -1,0 +1,42 @@
+--Se utiliza biblioteca, sendo o react router dom
+--e a mesma coisa que o cli do vue, porem dentrod o react. 
+--O router e igual o stack navigation, se temo stack nabvigation, com o container, que envolve em toda a 4estrutura para o context api 
+
+--Assim tambvem e no react, porem de forma diferente.
+
+--Faca as rotas separadas e coloque dentro de app, la sera realizada a chamada das rotas.
+
+--Se coloca as rotas dentro da pagina principal e se entra dentro do componente, igual ao react-native. 
+
+--Lembrando que os arquivos jsx sao apenas os arquivos com as caracteeristicas do dom. Sempre coloca. 
+
+--A questao do link e a mesma coisa. 
+
+--PAra colocar o link de navegacao em rotas, deve se importar do react, nao e nativo. 
+
+--E da mesma forma porem e mais mecanico, sempre coloque mais organizado e em pastas, assim fica melhor. 
+
+--A divisao e sempre mais manual no react, o que permite mais manipulacao e melhora a aplicacao 
+
+--nao vem aquela coisa rochosa igual no vue. coloca o header dentro de um component
+
+--O header para valer as rotas, deve estar em um contexto de rota, se nao ira dar errado, por isso
+sempre coloque o header em volta das rotas. 
+
+--Sempre sera igual ao stack, ele envolve com componente. 
+
+--Sempre coloque o header a cima da rota e sempre coloque do jeito que deve ser. 
+
+--a pagina de erro e a mesma coisa do que no vue, apenas colocar o * ja fica caracterizado que e a pagina 404
+
+--Para passar parametros para o react router dom 
+
+--Sempre deixe a rota not found por ultimo
+
+--Se coloca da mesma forma do que no vue e no node 
+
+--Para buscar o id pela url, se importa do react-router-fom, colocando o useParams. E um hook do react e por ele se pega a rota. 
+
+--Assim se utiliza as rotas. 
+
+
