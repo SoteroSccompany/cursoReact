@@ -39,4 +39,8 @@ sempre coloque o header em volta das rotas.
 
 --Assim se utiliza as rotas. 
 
+--Sempre coloque o switch para trabalhar com react router dom, ele nao deixa mais de uma rota. 
+
+--
+
 

@@ -1,0 +1,42 @@
+--so indo configuracao manual e um beckend para agilizar o processo de producao
+
+--estrtura 
+
+-users(collection)
+    --123(doc)
+    ---nome: gabriel 
+    ---ator: gabriel
+
+--BAnco de dados normal, e um suporte para desenvolvimento 
+
+--nunca pode ter o mesmo id de colection e de campos
+
+sempre faca as coisas de css e lembre da aula e da de react native, o basico funciona, nao tem segredo
+
+--Sempre vai pelos conceitos que se tem, sempre melhor 
+
+sempre lembre que no useState, deve colocar o nome do campo, o setNomeDoCampo e o que ele e, tipo a tipagem do ts
+
+--sempre objeto funcional e sempre useState, se nao da merda de visualizacao
+
+--sempre lembre que o que vem dentro do setAlgo() ja e a alteracao, so coloca se for objeto arrya, etc ja e o propio dado
+
+--sempre vai pela base e nunca faca nada sem os states, sempre lembre tambem que o set, o que vem na funcao ja e a atualizacao
+
+--sempre carregue o dado, coloque ele na state ou atualize o dado e coloque ele na state. 
+
+--Sempre via funcao, sempre colocando tudo de acordo com as funcoes e carregue de acordo com as funcoes. 
+
+--O this e sempre se for fora do conceito da funcaop, se nao apenas chame a funcao
+
+--sempre pense na logica do useState, sempre!
+
+--nao esqueca: useState = estado, useEffect => monitorar estados ou colocar na pagina, e na saida, colocando um return de funcao 
+--useCallback() -> antes de ser mudado ira realizar algo. Essas funcoes trocam as funcoes padroes que o react tras 
+
+--Os hooks sao de grande importancia e colocando meus projetos em react, vai complementar dms na hora de estudar o native 
+
+--Sempre que precisar de utilizar o sistema de autenticacao ou qualquer outro, deve se importar e realziar a conexao, igual foi com o banco. 
+
+--
+

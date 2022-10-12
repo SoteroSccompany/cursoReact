@@ -1,0 +1,7 @@
+--Firebase e uma aplicao que tem um backende protno, ele realiza as acoes do backend
+
+--Sendo um auxiliar de contrucao de apicacao
+
+--oferecce toda a estrutura de um beckende, top para o desenvolvimento
+
+--
