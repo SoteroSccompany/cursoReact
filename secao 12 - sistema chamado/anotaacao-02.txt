@@ -1,0 +1,39 @@
+--nas rotas se utiliza o context para saber se o usuario esta logado ou nao 
+
+--La que se sabe o que esta acontecendo com o usuario
+
+--Assim ele vai colocando do jeito correto ou nao 
+
+--Como passar o caregado para a view?
+
+--semper lembre do context, sempre.
+
+--Lembre que dentro do context, tem que ter as children, que seria para propagacao. 
+
+--se coloca tudo dentro de auth para ter acesso aos metodos dentro das rotas e conseguir regassar. 
+
+--vai sempre pela logica e pela base, ja estou com um dominio legal e o eract e mais parecido com um beckend, o que fica bem top
+
+--esta correta a utilizacao do context e to pegando certinho, apenas continuer
+
+--o toastFy e apenas os avisos de alerta do react
+
+--Sempre que for utilizar o toast, coloca entre as rotas e pega o toast com base no que for realizando, sendo com toast.succes ou error
+
+--sao apenas os alertas legaizinhos 
+
+--sempre vai pela documentacao. SEMPRE.
+
+--O jeito que eu estava fazendo no vue esta certinho, porem sempre utilize o react
+
+--context api e muito pica, deixa toda a informacao disponivel por toda a aplicacao
+
+--Possibilita muito mais maleabvilidade para realizar o desenvolvimento
+
+--react-icons -> e bibliuoteca utilkizada para icones.
+
+--Tudo funcionando conforme o devido. Sempre volte nas documentacoes e nas anotacoes, sempre utilize de base. SEMPRE
+
+--Obs, sempre pense antes de realizar o estilo, esta tudo na cabeca, apenas pense e realize
+
+--Overflow css: A propriedade overflow especifica quando o conteúdo de um elemento de nível de bloco deve ser cortado, exibido com barras de rolagem ou se transborda do elemento. O uso da propriedade overflow com valor diferente de visible (seu valor padrão), criará um novo contexto de formatação de bloco

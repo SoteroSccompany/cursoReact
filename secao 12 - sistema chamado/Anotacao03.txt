@@ -1,0 +1,19 @@
+--Se pode usar o display, nao somente uma vez 
+
+--sempre volte e sempre pesquise, o css e muito rico e regassa. 
+
+--Sempre utilize
+
+--Pesquise sempre efeitos e acoes 
+
+--sempre busque sobre csss e regasse com ele tambem, apesar de ecistir tudo, e uma grande mao na roda 
+
+--Css resolve muita coisa chata, que nao precisa de programacao, igual o switch, sempre utilize
+
+--Sempre faca o fator de ser mobile por css
+
+--Sempre se atenha, sempre aos detalhes, sempre, aos conceitos e a tudo. 
+
+--Sempre componentize tudo, e muito mais facil e deixa bem melhor para dar a manutencao no front 
+
+--

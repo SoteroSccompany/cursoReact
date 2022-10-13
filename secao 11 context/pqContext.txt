@@ -1,0 +1,36 @@
+--O layout em react.js e a mesma coisa do que no native, nao muda em nada. Sempre daquele jeito, porem nao precisa importart do react 
+
+--lembre que se nao colocar nome na f[uncao e exportar como default, nao precisa colocar o nome da funcao
+
+--O context e para realizar a comunicacao entre componentes/
+
+--sempre lembre que a props e com base no nome colocado ao chamar o componente.
+
+--O context e para nao precisar passar de forma manual o useState dentro do componente, ficando mais facil de compartilhar os dados. 
+
+--O context apenas disponibiliza os dados para todos os componentes. 
+
+--O react da de mil no vue, apesar de ser mais complicado 
+
+--O context e apenas um useState gigante, para toda aplicacao. 
+
+--Apenas compartilhando os dados entre os componentes. 
+
+--Se cria um arquivo de provider, recebe os childrens do componentes que serao aonde sera armazenado, lembre da logica, colocnaod entre o componente ele vira uma props do componentes. 
+
+--Children: Sempre lembre, o children e o que tem entre o chamado dos componentes. 
+
+--Da para separar do mesmo jeito o front igual ao beck
+
+--Se coloca o provedor para repassar os valores entre os componentes. 
+
+--Se passa os valores dentro do value do provider. Assim ele passara o dado.
+
+--lembre que se nao for default, tem que colocar as {}, se for nao precisa.
+
+--Se cria o contexto e exporta ele nos valores dentro do componente de contexto, quando quiser utilizar, basta pegar o useContext, coloca ele com o contexto importado e pegue direto do value
+
+--Assim se faz o compartilhamento
+
+--O useContext e utilizado sempre para separara os dados da aplicacao e ter os dados espalhados dentro dele. 
+

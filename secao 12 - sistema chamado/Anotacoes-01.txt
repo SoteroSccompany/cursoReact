@@ -1,0 +1,54 @@
+--O react funciona igual o vue, caso queira utilizar dentro de um front, porem o arquivo, fica em public
+
+--Ele compila o projeto e o coloca no server.
+
+--sempre facas as mudancas em root para ter a usabilidade completa do que precisa 
+
+--Retorne sempre que possivel o curso esta rico em conteudo. 
+
+--Melhor curso para css. 
+
+--Sempre utilize o switch do react-router-dom. SEMPRE
+
+--Se coloca o switch separado, colocando a parte de logica em outro arquivo para entrao realizar o desenvolvimento 
+
+--Coloca as configuracoes e deopois envolve as views
+
+--Para utilizar o Redirect, apenas utilize o componente do react-router-dom <Redirect to="">
+
+--Os ifs que foram realizados, sao todos da mesma funcao, podendo ser mudada e colocada do jeito que quiser. 
+
+--Lembre que o exect e para ser aquela rota em especifica. Sem nenhuma mudanca 
+
+--Sempre utilize o switch e sempre realize com a logica dos componentes. 
+
+--Retorna nas aulas e ve denovo, reafaz, paciencia e continuidadde
+
+--SWITCH FOI TROCADO PELO ROTES -> ESQUECE USAR SWITCH
+
+--Se mostra um grande avanco no ecosistema do react, nao deice de cumprir nada e continua regassando
+
+--Sempre vai pelos conceitos, css e de boa tambem, da tranquilo para estilizar na mao 
+
+--Sempre lembre dos alinhamentos, das margins e dos display, os tipos de flex, a direcao e a justificacao. 
+
+--Sempre vai pelo conceito, sempre da certo, nao falha nunca. 
+
+--Caso utilize o form, sempre coloque o preventDefault.
+
+--Eu tenho dominio do estilo, apenas preguica, tem logica e e legal, sempre utilize
+
+--Como sempre tera o acesso aos dados do usuario em toda a navegacao, logo, devera utilizar o context. 
+
+--colocando !! antes da variavel, ira converter em boleano
+
+--Se colocar os providers dentro da rota, tera todos os providers
+
+--Sempre lembre que se tras as informacoes ao colocar dentro do context, ele coloca as variaveis a disposicao. Poerem sempre colocando no contexto
+
+--sempre coloque a em funcoes para ser possivel a utilizacao nos contextos
+
+--sempre se coloca o provider para envolver as tags e sempre se utiliza o context para ler o que tem dentro
+
+--sempre colocando o contexto que se quer utilizar
+
