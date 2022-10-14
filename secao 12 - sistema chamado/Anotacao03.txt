@@ -92,3 +92,53 @@ form input[type="radio"]:not(:first-child){
 --Controle qual foi o ultimo recebido do beckend para saber e ter controle do carregar mais
 
 setChamados(chamados => [...chamados, ...lista]) -> caso precise para pegar os ja existente e colocar os novos
+
+--Assim se pega todos os chamados e coloca na lista os demais adicionados
+
+--No caso dos chamados, quando se retorna a div com as classes ela ja ocupa o espaco predeterminado por ela
+
+Sempre lembre, em caso de retornar, use o map. No map o index e sempre a posicao do item no array
+
+--No vue o botao ficava grande nao era atoa quando se utilizava o block, classe de css, fique atento
+
+se colocar o if de linha e colocar ele sequencia com o e comercial, ele ira renderizazr
+
+--Assim, o profixo e comercial sera o que vai ser execeutado!!!
+
+--Semrpe coloque em funcao, podendo reutilizar fica sempre melhhor
+
+--Semrper volte e vai sempre pela documentacao e diretamente pela logica.
+
+--Sempre faca de forma logica e de forma automnoma, poidendo reutilizar todos os elementos que se consegue, tornando o codigo reutilizavel e melhor 
+
+--Sempre coloque nas state para ter o mesmo efeito do vue, sempre e melhor
+
+--Na funcao que aparece carregando, ele coloca o ele carregando e depois saindo pois carrega as classes css que precisa.
+
+--quando estiver utilizando o if de uma linha com o &, sempre ele ira retornar apenas um valor, nao esqueca disso
+
+--trabalhe muito e sempre as funcoes, o que sera e como sera retornado. Sempre assim
+
+--Sempre procure fazer os ifs em umalinha e sempre bem alinhado, sempre indo pela logica.
+
+--POsicao fixa e para nao sair 
+
+--Se colcoar z-index 99, ele fica em cima de tudo.
+
+
+--O modal se faz colocando uma div por inteira na tela e o modal por cima, colocando em toda a tela. 
+
+--PAra utilizar a busca por parametros, deve se colocar o useNavigate e o useParams, assim se consegue ter acesso aos parametros da rota
+
+--para buscar, nao esqueca da utilizacao das funcoes do router-domn
+
+--Sempre lembre dos states, eles comandam nunca esqueca dos states, das rotasm etc...
+
+--Na lista para colocar se pega o array completo que revebeu e filtra achando qual que foi o index do clinete, sendo possivel filtrar e deixar da maneira certa
+
+--Utilize o finIndex para achar uma determinada posicao
+
+--Utiliza os states para colocar o index e para renderizar lita 
+
+
+--Semrpe preste atencao ono useEffects, pelo visto eu entendi o conceito. Esta de boa

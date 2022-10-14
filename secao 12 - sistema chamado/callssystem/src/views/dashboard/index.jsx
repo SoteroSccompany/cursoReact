@@ -5,23 +5,41 @@ import Header from '../../components/header/Header';
 import Title from '../../components/Title';
 import './dasboard.css'
 import firebase from '../../service/firebaseConnection'
-import {format} from 'date-fns'
+import { format } from 'date-fns'
+import Modal from '../../components/modal';
 
 
 
 
 function Dashboard() {
 
-  const [chamados, setChamados] = useState([0])
+  const [chamados, setChamados] = useState([])
   const [loading, setLoading] = useState(true)
   const [loadingMore, setLoadingMore] = useState(false)
   const [isEmpty, setIsEmpty] = useState(false)
   const [lastDocs, setLastDocs] = useState()
+  const [showPostModal, setShowPostModal] = useState(false)
+  const [detail, setDetail] = useState()
+
 
   const listRef = firebase.firestore().collection('chamados').orderBy('created', 'desc')
 
   useEffect(() => {
-    
+    async function loadCalls() {
+
+      await firebase.firestore().collection('chamados').orderBy('created', 'desc').limit(5).get()
+          .then((snapshot) => {
+            updateState(snapshot)
+
+           
+
+          }).catch(err => {
+            console.log(err)
+            setLoadingMore(false)
+          })
+      setLoading(false)
+    }
+
 
     loadCalls()
 
@@ -33,9 +51,9 @@ function Dashboard() {
 
   }, [])
 
-  async function updateState(snapshot){
+  async function updateState(snapshot) {
     const isCollectionEmpty = snapshot.size === 0
-    if(!isCollectionEmpty){
+    if (!isCollectionEmpty) {
 
       let lista = []
 
@@ -64,7 +82,7 @@ function Dashboard() {
       setLastDocs(lastDoc)
       setLoading(false)
 
-    }else{
+    } else {
       setIsEmpty(true)
       setLoading(false)
     }
@@ -72,23 +90,39 @@ function Dashboard() {
 
   }
 
-  async function loadCalls() {
 
-    await 
-      listRef.limit(5).get()
-      .then((snapshot) => {
-        updateState(snapshot)
 
-      }).catch(err => {
-        console.log(err)
-        setLoadingMore(false)
-      })
-      setLoading(false)
+
+  if (loading) {
+
+    return (
+      <div>
+        <Header />
+        <div className="content">
+          <Title name="Atendimentos">
+            <FiMessageSquare size={25} />
+          </Title>
+          <div className="container dashboard">
+            <span>Buscando chamados...</span>
+          </div>
+        </div>
+      </div>
+    )
+
   }
 
+  async function handdleMore() {
+    setLoadingMore(true)
+    await listRef.startAfter(lastDocs).limit(5).get()
+      .then((snapshot) => {
+        updateState(snapshot)
+      })
+  }
 
-  if(loading){
-    
+  function toggglePostModal(item) {
+    setShowPostModal(!showPostModal)
+    setDetail(item)
+
   }
 
 
@@ -129,40 +163,45 @@ function Dashboard() {
                 <tbody>
 
 
-                  {/*
+                  {
                     chamados.map((client, index) => {
+                      console.log(client)
+                      console.log(index)
                       return (
-                        <>
-                          <tr key={client.id} value={index}>
-                            <td data-label="Cliente">{client.cliente}</td>
-                            <td data-label="Assunto">{client.assunto}</td>
-                            <td data-label="Status">
-                              <span className="badge" style={{ backgroundColor: '#83bf02' }}>{client.status}</span>
-                            </td>
-                            <td data-label="Criado em">{client.created}</td>
-                            <td data-label="#">
-                              <button className="action" style={{ backgroundColor: '#3583f6' }}><FiSearch size={17} /></button>
-                              <button className="action" style={{ backgroundColor: '#f6a935' }}><FiEdit2 size={17} /></button>
-                            </td>
-                          </tr>
-                        </>
+                        <tr key={index} >
+                          <td data-label="Cliente">{client.cliente}</td>
+                          <td data-label="Assunto">{client.assunto}</td>
+                          <td data-label="Status">
+                            <span className="badge" style={{ backgroundColor: client.status === "Aberto" ? "#5cb85c" : "#999" }}>{client.status}</span>
+                          </td>
+                          <td data-label="Criado em">{client.createdFormated}</td>
+                          <td data-label="#">
+                            <button className="action" style={{ backgroundColor: '#3583f6' }} onClick={() => toggglePostModal(client)}><FiSearch size={17} /></button>
+                            <Link className="action" style={{ backgroundColor: '#f6a935' }} to={`/new/${client.id}`}><FiEdit2 size={17} /></Link>
+                          </td>
+                        </tr>
                       )
                     })
-                  */}
-
-
-
+                  }
                 </tbody>
               </table>
+              {
+                loadingMore && <h3 style={{ textAlign: 'center', marginTop: 15 }}>Buscando dados...</h3>
+              }
+              {
+                !loadingMore && !isEmpty && <button className='btn-more' onClick={handdleMore}>Buscar mais..</button>
+              }
+
             </>
           )
         }
-
-
-
-
-
       </div>
+      {
+        showPostModal && (<Modal
+          content={detail}
+          close={toggglePostModal}
+        />) 
+      }
     </div>
   );
 }

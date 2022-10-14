@@ -17,6 +17,7 @@ export default function AllRoutes() {
             <Route path="/profile" element={<RouteWrapper isPrivate component={Profile}/>} />
             <Route path="/customers" element={<RouteWrapper isPrivate component={Customers}/>} />
             <Route path="/new" element={<RouteWrapper isPrivate component={New}/>} />
+            <Route path="/new/:id" element={<RouteWrapper isPrivate component={New}/>} />
         </Routes>
     );
 }
