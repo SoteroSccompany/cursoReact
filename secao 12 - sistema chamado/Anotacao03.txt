@@ -16,4 +16,79 @@
 
 --Sempre componentize tudo, e muito mais facil e deixa bem melhor para dar a manutencao no front 
 
---
+--Sempre se lembre do children, ele pega o que esta na tag
+
+--sempre utilize bastante o css, muito top
+
+--Se importart o componente e ele tiver o css, por padrao ele ja esta atuando tambem no arquivo
+
+--Z-index e para o elemento ficar em cima do que se colocar ele. 
+
+--No css tem tudo o que precisa, de escala, de posicao de efeito, sempre utilize.
+
+--Sempre pense no projeto como um todo, sempre utilize as classes, as estilizacoes, utilize as ferramentas e sempre pense no projeto para nao ficar perdido
+
+--lembre que se colocar ...dado dentro do objeto, ele pega os dados ja existentes naquele objeto
+
+--sempre que realizar alterarcoes, pense na reflexao dentro do0 sistema.
+
+--Quando se coloca o file, ele consegue pegar o arquivo que se esta pegando e assim manipulalo. 
+
+--Com a selecao de imagem, voce coloca a imagem que deseja
+
+--lembreq eu pode armazenar aquivos dentro de objettos e trabalhar com eles, e a mesma coisa
+
+--Sempre lembre dos conceitos, tenha calma no desenvolvimento e sempre caminhe. Sempre
+
+--Estou sabendo sobre o framework, apenas de um tempo no bansa, coloca apenas a noite e nao deixe de fazer o curso de aplicativo
+
+--Sempre lembre que os dados sao guardados no estado, o que seria no vue o data, porem no react e mais maleavel e direto, o que deixa o framework bem melhor
+
+--Sempre busque a arquitetura do software, mesmo estando no front, facilita muito mais a minnha vida na hora da manutencao
+
+--No caso do firebase, apeans tem os comandos, que sao como se fosse op beckend, porem nao se aplica muito a gente, devido a desenvolvermos o proprio backend
+
+--Sempre lembre do context api, ele gera um provedor para o daado ficar diosponivel entre os componentes
+
+--As rotas sao tambem pelo context, o que deixa bem tranquilo para proteger mais as rotas
+
+--Sempre lembre que precisa do routes para adicionar as rotas e vai seguindo, consigo ja realizar um projeto. 
+
+--sempre coloque nas rotas pelo contexcto e sempre lembre de atualizar
+
+--Sempre lembre, mais do que nunca, html apenas marcacao, estilizacao e outros 500
+
+--sempre lembre da questao dos chilfrens, sempre que colocar entre as tags, entera como chilfren
+
+--Sempre lembre de colcoar de acordo com as funcoes e sempre atualizando no setState 
+
+--Sempre busque os dedatelhes de acordo com as regras e com o css
+
+--Lembre que se a tabela em celular, tem que ser em linha
+
+
+--o float depende se e flex ou nao 
+
+--Sempre lembre do basico, ele que faz tudo
+
+form input[type="radio"]:not(:first-child){
+    margin: 15px 0;
+}
+
+--Para pegar um determinado de imput de acordo com o primeiro filho!!
+
+--Sempre utilizar o map para mapear um componente. 
+
+--da para atrasar a velocidade da internet dentro do console, ficando facil para controle 
+
+--Sempre se salva o index se fgor um select, que depois vocë volta no array e seleciona o cliente que foi escolhido
+
+--Nao esqueca, state e para controle de estado.!!!
+
+--date-fns -> biblioteca para utilizacao de data -> MUITO BOM
+
+--Sempre utilize essa biblioteca de data, muito bom
+
+--Controle qual foi o ultimo recebido do beckend para saber e ter controle do carregar mais
+
+setChamados(chamados => [...chamados, ...lista]) -> caso precise para pegar os ja existente e colocar os novos

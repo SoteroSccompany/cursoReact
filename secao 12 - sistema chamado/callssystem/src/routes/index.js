@@ -4,7 +4,9 @@ import Signin from '../views/Signin';
 import Signup from '../views/SignUp';
 import Dashboard from '../views/dashboard';
 import RouteWrapper from './Route';
-import Profile from '../views/Profile/Profile';
+import Profile from '../views/Profile';
+import Customers from '../views/customers';
+import New from '../views/New';
 
 export default function AllRoutes() {
     return (
@@ -13,6 +15,8 @@ export default function AllRoutes() {
             <Route  path="/register" element={<RouteWrapper component={Signup}/>} />
             <Route path="/dashboard" element={<RouteWrapper isPrivate component={Dashboard}/>} />
             <Route path="/profile" element={<RouteWrapper isPrivate component={Profile}/>} />
+            <Route path="/customers" element={<RouteWrapper isPrivate component={Customers}/>} />
+            <Route path="/new" element={<RouteWrapper isPrivate component={New}/>} />
         </Routes>
     );
 }

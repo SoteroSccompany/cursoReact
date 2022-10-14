@@ -1,9 +1,10 @@
-import './title.cdd';
+import './title.css';
 
-export default function Title(){
+export default function Title({children, name}){
     return(
         <div className="title">
-            <h1>Titulo</h1>
+            {children}
+            <span>{name}</span>
         </div>
     )
 }
